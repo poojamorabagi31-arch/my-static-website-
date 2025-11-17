@@ -1,6 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pooja Clouds | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            backdrop-filter: blur(6px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .title {
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello from EC2 + Jenkins CI/CD!</h1>
+
+    <header>
+        <h1>Welcome to Pooja's Cloud Portfolio</h1>
+        <h2>DevOps | AWS | Jenkins | Terraform | Python | CI/CD</h2>
+    </header>
+
+    <div class="card">
+        <div class="title">About This Site</div>
+        <p>This website is hosted on an EC2 instance using Jenkins CI/CD and GitHub integration. 
+           Every push to the GitHub repository automatically updates this site.</p>
+    </div>
+
+    <div class="card">
+        <div class="title">Skills</div>
+        <ul>
+            <li>AWS (EC2, S3, IAM, VPC, CloudWatch)</li>
+            <li>DevOps Tools (Git, Jenkins, Docker)</li>
+            <li>CI/CD Pipelines</li>
+            <li>Infrastructure Automation</li>
+            <li>Linux & Python Scripting</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="title">Contact</div>
+        <p>Email: example@gmail.com</p>
+        <p>GitHub: github.com/yourusername</p>
+    </div>
+
+    <footer>
+        © 2025 Pooja Clouds | Hosted on AWS EC2 + Jenkins CI/CD
+    </footer>
+
 </body>
 </html>
